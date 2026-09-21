@@ -15,6 +15,7 @@
 - `E36`-`E43`: 维生素 C 专项
 - `E44`-`E46`: 前沿干预 (TAME / 雷帕霉素 / Senolytics)
 - `E47`-`E49`: 权威框架 (Life's Essential 8 / Lancet 痴呆委员会 / GBD)
+- `E50`-`E52`: 性活动 (性高潮与死亡 / 射精与前列腺癌 / NHANES U 型与心梗触发)
 
 ## 条目清单
 
@@ -69,6 +70,9 @@
 | E47 | AHA Life's Essential 8 框架本身 | 学会声明 | 指南 | [evidence/E47.md](E47.md) |
 | E48 | Lancet 痴呆预防委员会 2024 | 委员会报告 | 指南 | [evidence/E48.md](E48.md) |
 | E49 | GBD 2021 危险因素归因 | 系统分析 | 负担估计 | [evidence/E49.md](E49.md) |
+| E50 | 性高潮频率与死亡 (Caerphilly) | 前瞻队列 | 队列 | [evidence/E50.md](E50.md) |
+| E51 | 射精频率与前列腺癌 (HPFS) | 前瞻队列 | 队列 | [evidence/E51.md](E51.md) |
+| E52 | 性频率与 CVD/死亡 U 型 + 心梗触发 | NHANES + case-crossover | 队列 | [evidence/E52.md](E52.md) |
 
 ## 分析模板结构
 
