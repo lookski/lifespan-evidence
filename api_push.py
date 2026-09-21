@@ -32,6 +32,10 @@ base_tree 404 导致 422 Invalid tree info), 改为:
 修复校验 bug: 递归遍历远端树时未把父目录前缀累加到子树条目路径上,
 导致 evidence/ 下 50 个文件被误报为根目录文件 (missing/extra 假阳性, sha_diff 为空).
 改为栈内携带 (子树sha, 前缀) 二元组.
+===== [2026-09-21 21:18:24] =====
+修复行尾不一致: core.autocrlf=input 使 HEAD blob 为 LF, 而脚本上传的是工作区
+原始字节 (日志文件含 CRLF), 回读校验 sha_diff 假阳性. 上传前按 git 存储口径
+规范化 (text=auto: 二进制检测, 含 \0 视为二进制不处理, 否则 CRLF -> LF).
 """
 
 import base64
@@ -139,10 +143,12 @@ def main():
     added = [p for p in changed if p in local]
     print(f"需上传 {len(added)} 个文件")
 
-    # 3. 逐文件 POST blobs
+    # 3. 逐文件 POST blobs (按 git 存储口径规范化行尾, 与 HEAD blob 一致)
     entries = []
     for p in added:
         data = (LOCAL_DIR / p).read_bytes()
+        if b"\0" not in data:  # 文本文件: CRLF -> LF (与 autocrlf=input 一致)
+            data = data.replace(b"\r\n", b"\n")
         blob = api("POST", f"/repos/{REPO}/git/blobs",
                    json={"content": base64.b64encode(data).decode(),
                          "encoding": "base64"})
