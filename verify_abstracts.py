@@ -7,11 +7,14 @@
 输出格式: stdout, 每篇输出标题与摘要原文
 依赖: 仅 Python 3 标准库
 注意事项: resultType=core 才返回 abstractText
+===== [2026-09-22 00:58:30] =====
+修复: PMIDS 解析改为每行先按 '#' 截断再 strip, 允许行尾注释
+(之前 '9448525 # 注释' 整行当 PMID 导致 NOT FOUND).
 """
 import urllib.request, urllib.parse, json, re, sys
 
-PMIDS = [l.strip() for l in open(sys.argv[1], encoding="utf-8")
-         if l.strip() and not l.strip().startswith("#")]
+PMIDS = [l.split("#")[0].strip() for l in open(sys.argv[1], encoding="utf-8")
+         if l.split("#")[0].strip()]
 
 for pmid in PMIDS:
     url = ("https://www.ebi.ac.uk/europepmc/webservices/rest/search?"

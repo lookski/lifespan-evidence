@@ -1,0 +1,12 @@
+# E50-E52: 性活动/射精频率 逐项分析核验清单
+# 每行一个 PMID, # 为注释
+#
+9448525  # Davey Smith BMJ 1997: Caerphilly 性高潮频率与全因死亡 (男 918 人, 10 年)
+15069045 # Leitzmann JAMA 2004: 射精频率与前列腺癌 (HPFS 29,342 人)
+27033442 # Rider Eur Urol 2016: 射精频率更新 18 年随访 (HPFS 31,925 人)
+11812807 # Cao Jech 2002: Caerphilly 性交与卒中/冠心病 (男 2,462 人, 20 年)
+11559674 # Muller Heart 2001: SHEEP 性活动触发心梗 case-crossover
+39738405 # Sci Rep 2024: 性频率与 CVD 发病及全因死亡 (NHANES)
+31295439 # Am J Med 2019: 心梗后性活动频率与长期生存
+33624045 # Eur J Prev Cardiol 2022: 心梗后恢复性活动与长期生存
+35579976 # Int J Cancer 2022: 游离睾酮与侵袭性前列腺癌 前瞻+MR

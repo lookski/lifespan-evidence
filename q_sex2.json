@@ -1,0 +1,8 @@
+[
+  ["SEX10. Caerphilly 性高潮与死亡 精确检索", "TITLE:\"orgasm\" AND TITLE:\"mortality\""],
+  ["SEX11. Rider 射精频率 前列腺 Eur Urol", "AUTH:\"Rider JR\" AND TITLE:\"prostate\" AND TITLE:\"frequency\""],
+  ["SEX12. 性交后心梗风险 触发因子 meta (Moller/Albert)", "TITLE:\"sexual intercourse\" AND (TITLE:\"myocardial infarction\" OR TITLE:\"heart\") AND TITLE:\"risk\" AND SRC:MED"],
+  ["SEX13. 太极/健康老人 性生活与生存 (coronary artery disease cohort)", "AUTH:\"Stefan HE\" OR (TITLE:\"sexual activity\" AND TITLE:\"survival\" AND SRC:MED)"],
+  ["SEX14. 性生活满意度 标志物 (Waldinger 2015)", "TITLE:\"sexual\" AND TITLE:\"satisfaction\" AND TITLE:\"mortality\""],
+  ["SEX15. 性活动与心血管死亡 NHANES/队列", "TITLE:\"sexual\" AND TITLE:\"cardiovascular\" AND TITLE:\"mortality\" AND TITLE:\"frequency\""]
+]

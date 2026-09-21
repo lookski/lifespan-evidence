@@ -1,0 +1,11 @@
+[
+  ["SEX1. 性高潮频率与死亡 (Caerphilly BMJ 1997)", "AUTH:\"Davey Smith G\" AND TITLE:\"sex\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["SEX2. 射精频率与前列腺癌 (Leitzmann JAMA 2004)", "AUTH:\"Leitzmann MF\" AND TITLE:\"ejaculation\" AND TITLE:\"prostate\""],
+  ["SEX3. 射精频率与前列腺癌 18年更新 (Rider)", "AUTH:\"Rider JR\" AND TITLE:\"ejaculation\" AND TITLE:\"prostate cancer\""],
+  ["SEX4. 性生活与心血管事件触发 meta", "TITLE:\"sexual activity\" AND TITLE:\"myocardial infarction\" AND TITLE:\"trigger\" AND SRC:MED"],
+  ["SEX5. 性活动频率与死亡队列", "TITLE:\"sexual activity\" AND TITLE:\"all-cause mortality\" AND TITLE:\"cohort\" AND SRC:MED"],
+  ["SEX6. 性满意度与寿命 (Waldinger OZAV)", "AUTH:\"Waldinger M\" AND TITLE:\"longevity\""],
+  ["SEX7. 纵欲/频繁性活动与寿命 系统综述", "TITLE:\"sexual activity\" AND TITLE:\"longevity\" AND SRC:MED"],
+  ["SEX8. 自慰频率与健康", "TITLE:\"masturbation\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["SEX9. 性与睾酮/前列腺癌 MR", "TITLE:\"testosterone\" AND TITLE:\"prostate cancer\" AND TITLE:\"Mendelian\" AND PUB_YEAR:[2015 TO 2025]"]
+]
