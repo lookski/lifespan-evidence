@@ -1,0 +1,10 @@
+# ---- lifespan-evidence 文献证据仓库 ----
+# Python 运行产物
+__pycache__/
+*.pyc
+# 敏感信息
+.env
+*token*
+*secret*
+# 论文原文 PDF 不入仓 (版权原因; OA 全文后续如需可另行添加)
+*.pdf

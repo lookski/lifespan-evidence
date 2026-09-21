@@ -1,0 +1,12 @@
+[
+  ["5. CALERIE 热量限制 RCT (Redman)", "AUTH:\"Redman LM\" AND TITLE:\"caloric restriction\" AND PUB_YEAR:[2019 TO 2026]"],
+  ["6. 间歇性禁食与死亡/寿命", "TITLE:\"intermittent fasting\" AND (TITLE:\"mortality\" OR TITLE:\"longevity\") AND SRC:MED"],
+  ["7. 坚果摄入与死亡 meta", "TITLE:\"nut\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["8. 鱼类摄入与死亡 meta", "TITLE:\"fish\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["9. 蔬果与死亡 meta", "TITLE:\"fruit\" AND TITLE:\"vegetable\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["10. 全谷物与死亡 meta", "TITLE:\"whole grain\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["11. 含糖饮料与死亡 meta", "TITLE:\"sugar-sweetened\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["12. 红肉/加工肉与死亡 meta", "TITLE:\"processed meat\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["13. 咖啡与死亡 meta", "TITLE:\"coffee\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["14. 鸡蛋与死亡/心血管 meta", "TITLE:\"egg\" AND TITLE:\"consumption\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""]
+]

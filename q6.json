@@ -1,0 +1,5 @@
+[
+  ["A. NEJM 限时进食 RCT (Liu 2022)", "TITLE:\"time restriction\" AND TITLE:\"calorie restriction\" AND SRC:MED AND PUB_YEAR:2022"],
+  ["B. TAME 二甲双胍抗衰框架", "AUTH:\"Barzilai N\" AND TITLE:\"metformin\" AND TITLE:\"aging\""],
+  ["C. 健康行为与死亡归因 (GBD)", "TITLE:\"Global Burden of Disease\" AND TITLE:\"risk factors\" AND PUB_YEAR:2024 AND SRC:MED"]
+]

@@ -1,0 +1,7 @@
+[
+  ["候选1: 亚精胺 spermidine", "TITLE:\"spermidine\" AND (TITLE:\"mortality\" OR TITLE:\"survival\" OR TITLE:\"longevity\") AND SRC:MED"],
+  ["候选2: 非瑟酮 fisetin", "TITLE:\"fisetin\" AND (TITLE:\"aging\" OR TITLE:\"lifespan\" OR TITLE:\"trial\")"],
+  ["候选3: 硒 selenium 补充", "TITLE:\"selenium\" AND TITLE:\"supplementation\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["候选4: NMN/NR 烟酰胺", "(TITLE:\"nicotinamide mononucleotide\" OR TITLE:\"nicotinamide riboside\") AND (TITLE:\"aging\" OR TITLE:\"trial\") AND PUB_YEAR:[2019 TO 2026]"],
+  ["候选5: 萝卜硫素 sulforaphane", "TITLE:\"sulforaphane\" AND (TITLE:\"trial\" OR TITLE:\"aging\") AND PUB_YEAR:[2015 TO 2026]"]
+]

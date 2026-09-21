@@ -1,0 +1,9 @@
+[
+  ["36. 衰老标志综述 (hallmarks of aging)", "TITLE:\"hallmarks of aging\""],
+  ["37. 衰老干预综述", "TITLE:\"interventions to slow aging\" OR (TITLE:\"therapeutics\" AND TITLE:\"aging\" AND TITLE:\"translational\") AND SRC:MED"],
+  ["38. 二甲双胍 TAME 抗衰试验", "TITLE:\"metformin\" AND TITLE:\"Targeting aging\""],
+  ["39. 雷帕霉素与衰老临床试验", "TITLE:\"rapamycin\" AND TITLE:\"aging\" AND (TITLE:\"trial\" OR TITLE:\"immune\") AND PUB_YEAR:[2014 TO 2026]"],
+  ["40. Senolytics 临床试验", "TITLE:\"senolytics\" AND (TITLE:\"trial\" OR TITLE:\"pilot\") AND PUB_YEAR:[2019 TO 2026]"],
+  ["41. 哺乳动物热量限制经典 (Wisconsin/NIA 猴)", "TITLE:\"caloric restriction\" AND TITLE:\"rhesus\" AND TITLE:\"mortality\""],
+  ["42. 运动与衰老综述", "TITLE:\"exercise\" AND TITLE:\"aging\" AND TITLE:\"review\" AND PUB_YEAR:[2020 TO 2026] AND SRC:MED"]
+]

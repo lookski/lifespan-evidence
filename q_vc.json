@@ -1,0 +1,8 @@
+[
+  ["VC1. 维生素C摄入与全因死亡 meta", "TITLE:\"vitamin C\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\" AND SRC:MED"],
+  ["VC2. 抗氧化补剂与死亡 RCT meta (Bjelakovic)", "AUTH:\"Bjelakovic G\" AND TITLE:\"antioxidant\" AND TITLE:\"mortality\""],
+  ["VC3. 血浆维生素C浓度与死亡 (EPIC)", "TITLE:\"plasma vitamin C\" AND TITLE:\"mortality\""],
+  ["VC4. 维生素C/E RCT (PHS II)", "AUTH:\"Sesso HD\" AND TITLE:\"vitamins\" AND TITLE:\"trial\""],
+  ["VC5. 补充维生素C RCT 死亡终点", "TITLE:\"vitamin C\" AND TITLE:\"supplementation\" AND TITLE:\"all-cause mortality\" AND SRC:MED"],
+  ["VC6. 静脉大剂量维生素C 重症试验", "TITLE:\"vitamin C\" AND TITLE:\"sepsis\" AND TITLE:\"trial\" AND PUB_YEAR:[2019 TO 2023]"]
+]

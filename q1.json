@@ -1,0 +1,6 @@
+[
+  ["1. PREDIMED 地中海饮食 RCT (Estruch)", "TITLE:\"Mediterranean diet\" AND AUTH:\"Estruch R\""],
+  ["2. 地中海饮食与死亡 meta 分析", "TITLE:\"Mediterranean diet\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["3. 低碳水/植物性饮食与死亡", "TITLE:\"low-carbohydrate\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["4. 饮食质量与全因死亡 meta", "TITLE:\"diet quality\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""]
+]

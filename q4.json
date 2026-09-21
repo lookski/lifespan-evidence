@@ -1,0 +1,12 @@
+[
+  ["26. 社会关系经典 meta (Holt-Lunstad)", "AUTH:\"Holt-Lunstad J\" AND TITLE:\"social relationships\" AND TITLE:\"mortality\""],
+  ["27. 乐观与长寿", "TITLE:\"optimism\" AND (TITLE:\"longevity\" OR TITLE:\"mortality\") AND SRC:MED"],
+  ["28. 人生目标感与死亡", "TITLE:\"purpose in life\" AND TITLE:\"mortality\""],
+  ["29. 睡眠规律性与死亡", "TITLE:\"sleep regularity\" AND TITLE:\"mortality\""],
+  ["30. BMI 与全因死亡 (GBMI 合作组)", "TITLE:\"body-mass index\" AND TITLE:\"all-cause mortality\" AND TITLE:\"meta-analysis\" AND PUB_YEAR:[2016 TO 2026]"],
+  ["31. 植物蛋白与死亡", "TITLE:\"plant protein\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["32. 茶与死亡 meta", "TITLE:\"tea consumption\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["33. 健康生活方式与预期寿命", "TITLE:\"healthy lifestyle\" AND TITLE:\"life expectancy\" AND SRC:MED"],
+  ["34. AHA Life's Essential 8", "TITLE:\"Life's Essential 8\" AND SRC:MED"],
+  ["35. 痴呆预防 Lancet 委员会", "AUTH:\"Livingston G\" AND TITLE:\"dementia prevention\""]
+]

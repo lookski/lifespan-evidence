@@ -1,0 +1,13 @@
+[
+  ["15. 运动/身体活动与死亡 meta", "TITLE:\"physical activity\" AND TITLE:\"all-cause mortality\" AND TITLE:\"meta-analysis\" AND PUB_YEAR:[2015 TO 2026]"],
+  ["16. 步行步数与死亡", "TITLE:\"steps\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\" AND PUB_YEAR:[2019 TO 2026]"],
+  ["17. 力量训练与死亡", "TITLE:\"resistance training\" AND TITLE:\"mortality\" AND SRC:MED"],
+  ["18. 久坐与死亡 meta", "TITLE:\"sedentary\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\" AND PUB_YEAR:[2015 TO 2026]"],
+  ["19. 睡眠时长与死亡 meta", "TITLE:\"sleep duration\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["20. 吸烟与寿命", "TITLE:\"smoking\" AND TITLE:\"life expectancy\" AND SRC:MED"],
+  ["21. 戒烟与寿命获益", "TITLE:\"smoking cessation\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["22. 饮酒与死亡", "TITLE:\"alcohol\" AND TITLE:\"all-cause mortality\" AND TITLE:\"meta-analysis\" AND PUB_YEAR:[2015 TO 2026]"],
+  ["23. 社会关系与死亡", "TITLE:\"social relationships\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["24. 孤独感与死亡", "TITLE:\"loneliness\" AND TITLE:\"mortality\" AND TITLE:\"meta-analysis\""],
+  ["25. 8小时时代不活动建议", "AUTH:\"Ekelund U\" AND TITLE:\"harmonised\" AND PUB_YEAR:[2019 TO 2021]"]
+]
