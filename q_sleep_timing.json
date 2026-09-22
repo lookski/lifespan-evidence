@@ -1,0 +1,10 @@
+[
+  ["ST1. UK Biobank 就寝时间与死亡/心血管", "TITLE:\"bedtime\" AND (TITLE:\"mortality\" OR TITLE:\"cardiovascular\")"],
+  ["ST2. 睡眠时间点 sleep midpoint 与死亡", "TITLE:\"sleep midpoint\" AND TITLE:\"mortality\""],
+  ["ST3. 时型 chronotype 与死亡 (UK Biobank)", "AUTH:\"Kroencke\" OR (TITLE:\"chronotype\" AND TITLE:\"mortality\")"],
+  ["ST4. 时型与死亡 (Circulation 2023 Windred)", "AUTH:\"Windred\" AND TITLE:\"chronotype\""],
+  ["ST5. social jetlag 与健康/死亡", "TITLE:\"social jetlag\" AND (TITLE:\"mortality\" OR TITLE:\"cardiovascular\" OR TITLE:\"health\")"],
+  ["ST6. 晚睡晚起 vs 早睡早起 心血管 (Sleep Eur Heart J)", "TITLE:\"sleep timing\" AND TITLE:\"cardiovascular\""],
+  ["ST7. 睡眠时长与规律性直接对比", "TITLE:\"sleep regularity\" AND TITLE:\"sleep duration\" AND TITLE:\"mortality\""],
+  ["ST8. 夜班 shift work 与死亡 (机制佐证)", "TITLE:\"night shift\" AND TITLE:\"all-cause mortality\" AND TITLE:\"meta-analysis\""]
+]

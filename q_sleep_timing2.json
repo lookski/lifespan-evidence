@@ -1,0 +1,7 @@
+[
+  ["ST9. 就寝时间与心血管 UK Biobank (Plans-Pujolras 2021)", "AUTH:\"Plans-Pujolras X\" OR (TITLE:\"sleep onset\" AND TITLE:\"cardiovascular\")"],
+  ["ST10. 睡眠时间点 UK Biobank 死亡 (Windred 2023 前后)", "AUTH:\"Windred DP\" AND TITLE:\"mortality\""],
+  ["ST11. chronotype 早鸟夜猫 全因死亡 UK Biobank 2023", "TITLE:\"chronotype\" AND TITLE:\"all-cause mortality\""],
+  ["ST12. Sleep Heart Health 睡眠时间点死亡 (38561941 相关)", "AUTH:\"Patel SR\" AND TITLE:\"sleep timing\""],
+  ["ST13. 睡眠中点/峰值时间 UKB 事件 (SEXTING替代词查)", "TITLE:\"sleep\" AND TITLE:\"timing\" AND TITLE:\"incident\" AND TITLE:\"cardiovascular disease\""]
+]
