@@ -1,0 +1,12 @@
+# E53: 睡眠时间段 (timing) 与死亡 核验清单
+# 每行一个 PMID, # 后为注释 (verify_abstracts.py 已支持行尾注释)
+#
+38561941 # JCSM 2024: sleep timing 与全因/CV死亡 (Sleep Heart Health + MrOS)
+39405349 # PNAS 2024: 夜间光照/日间光照与死亡 (UK Biobank 88k, Windred)
+37738616 # Sleep 2024: 规律性 vs 时长 (基准, E25 已核验, 重取以对比效应量)
+20469800 # Sleep 2010: 睡眠时长 meta (基准, E24 已核验)
+37544277 # Sleep Med 2023: 就寝时间与 CVD 东方队列 (东风同济)
+28329091 # Sleep 2017: sleep timing 与肥胖/糖尿病 (HCHS/SOL 机制佐证)
+30300651 # Chest 2019: sleep timing 稳定性与血压 (机制佐证)
+34960096 # Nutrients 2021: social jetlag 综述 (机制背景)
+37221400 # Nat Rev Endocrinol 2023: social jetlag 如何影响健康
