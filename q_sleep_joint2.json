@@ -1,0 +1,6 @@
+[
+  ["JT6. RU-SATED 睡眠健康维度与死亡", "TITLE:\"sleep health\" AND TITLE:\"all-cause mortality\" AND (TITLE:\"regularity\" OR TITLE:\"timing\") AND PUB_YEAR:[2020 TO 2026]"],
+  ["JT7. 睡眠时间点与时长相关性 (UKB 加速计) 计量学", "TITLE:\"sleep midpoint\" AND (TITLE:\"regularity\" OR TITLE:\"duration\")"],
+  ["JT8. 就寝时间 独立于时长? (Janszky 就寝与死亡)", "AUTH:\"Janszky I\" AND TITLE:\"sleep\""],
+  ["JT9. NHANES 睡眠时间+时长 共同建模 2024-2026", "TITLE:\"sleep\" AND TITLE:\"timing\" AND TITLE:\"duration\" AND TITLE:\"mortality\" AND PUB_YEAR:[2023 TO 2026]"]
+]

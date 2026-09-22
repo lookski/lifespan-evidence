@@ -1,0 +1,7 @@
+[
+  ["JT1. 五维睡眠健康联合建模与死亡 (Makarem JAHA)", "AUTH:\"Makarem N\" AND TITLE:\"sleep\" AND TITLE:\"mortality\""],
+  ["JT2. 睡眠模式联合 UK Biobank 心血管 (Fan Eur Heart J)", "AUTH:\"Fan M\" AND TITLE:\"sleep\" AND TITLE:\"cardiovascular\" AND TITLE:\"UK\""],
+  ["JT3. eLife 规律性论文全文 (含时长/中点互调)", "EXT_ID:37995126"],
+  ["JT4. 睡眠规律性+时间点联合建模", "TITLE:\"sleep regularity\" AND TITLE:\"sleep timing\" AND TITLE:\"joint\""],
+  ["JT5. 多维睡眠健康 score 与死亡", "TITLE:\"sleep health\" AND TITLE:\"score\" AND TITLE:\"mortality\" AND TITLE:\"dimensions\""]
+]
