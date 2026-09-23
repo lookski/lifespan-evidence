@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>延长寿命的科学证据手册</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Evidence-based longevity handbook. 54 findings, every figure verified against PubMed abstracts. 循证延寿手册.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="docsify-theme.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '延长寿命的科学证据手册',
+      repo: 'lookski/lifespan-evidence',
+      homepage: 'README.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      alias: {
+        '/topics/.*?/README.md': '/README.md'
+      },
+      search: {
+        depth: 3,
+        noData: {
+          '/': '没有结果',
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索…',
+        }
+      },
+      auto2top: true,
+      relativePath: true
+    }
+  </script>
+  <script src="docsify.js"></script>
+  <script src="docsify-search.js"></script>
+</body>
+</html>
