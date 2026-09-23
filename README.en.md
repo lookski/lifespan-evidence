@@ -25,11 +25,20 @@ topics/*.md                Dimension briefs: one page per dimension, quick table
 evidence/E*.md             Per-item analyses: one file per study, 7-section template
 ```
 
+**Two most surprising findings first**:
+
+- **Weak social ties = survival OR 1.50 (1.42-1.59)**, on par with quitting smoking
+  and obesity — "loneliness harms" is not a platitude but a cohort figure from
+  148 studies, 308,849 people ([E31](evidence/E31.md))
+- **Sleep regularity predicts mortality better than duration**: the most regular
+  group had 20%-48% lower risk; adding duration does not improve the model
+  ([E25](evidence/E25.md), UK Biobank accelerometry)
+
 **Dimension briefs** ([topics/](topics/)):
 
 | Page | Dimension | One-liner |
 |---|---|---|
-| [00-total](topics/00-total.md) | The big picture | Lifestyle package: 8-10 years (China) to +14 years (US women) |
+| [00-total](topics/00-total.md) | The big picture | Lifestyle package: 8-10 years (China) to 12-14 years (US, Circulation 2018) |
 | [01-diet-patterns](topics/01-diet-patterns.md) | Dietary patterns | Mediterranean HR 0.69-0.72; every score point counts |
 | [02-foods](topics/02-foods.md) | Foods to eat more | Vegetables/fruit, nuts, whole grains, fish, plant protein |
 | [03-avoid](topics/03-avoid.md) | Foods to cut back | SSB +8%/serving, processed meat +15%/serving |
@@ -55,7 +64,7 @@ The most important group of studies — lifestyle packaged, answering "how many 
 
 | Population | Study | Key numbers (machine-verified) | Source |
 |---|---|---|---|
-| US adults | Nurses' Health Study + Health Professionals Follow-up Study, n≈112,000, ~34 y follow-up | Women aged 50 with all 5 low-risk factors (non-smoking, BMI 18.5-24.9, ≥30 min/day moderate-vigorous activity, moderate alcohol, diet in top 40%): chronic-disease-free life expectancy **34.4 y (95% CI 33.1-35.5)** vs **23.7 y (22.6-24.7)** with 0 factors; men **31.1 y (29.5-32.5)** vs **23.5 y (22.3-24.7)** | Li Y, et al. **BMJ 2020;368:l6669.** doi:10.1136/bmj.l6669 (PMID 31915124) |
+| US adults | Nurses' Health Study + Health Professionals Follow-up Study, n≈112,000, ~34 y follow-up | Women aged 50 with all 5 low-risk factors (non-smoking, BMI 18.5-24.9, ≥30 min/day moderate-vigorous activity, moderate alcohol, diet in top 40%): chronic-disease-free life expectancy **34.4 y (95% CI 33.1-35.5)** vs **23.7 y (22.6-24.7)** with 0 factors; men **31.1 y (29.5-32.5)** vs **23.5 y (22.3-24.7)**; total life expectancy from the same cohorts: women +14.0 y (11.8-16.2), men +12.2 y (10.1-14.2) | Li Y, et al. **BMJ 2020;368:l6669.** doi:10.1136/bmj.l6669 (PMID 31915124); Li Y, et al. **Circulation 2018;138(4):345-355.** doi:10.1161/CIRCULATIONAHA.117.032047 (PMID 29712712) |
 | Chinese adults | China Kadoorie Biobank (CKB), n≈487,000, median 11.1 y | At age 30, men with all 5 low-risk factors: life expectancy **50.5 y (48.5-52.4)**, women **55.4 y (53.5-57.4)**; 0-1 factors: men 41.7 y (41.5-42.0), women 47.3 y (46.6-48.0); gap **men +8.8 y (6.8-10.7), women +8.1 y (6.5-9.9)** | **Lancet Public Health 2022;7(12):e1029-e1039.** doi:10.1016/S2468-2667(22)00110-4 (PMID 35926549) |
 | US adults | NHANES 2005-2018 linked to mortality records, n=19,951, median 7.6 y | AHA "Life's Essential 8" high score (≥75): all-cause mortality **HR 0.42 (95% CI 0.32-0.56)**; moderate (50-74): **HR 0.60 (0.51-0.71)** vs low scorers | Sun J, et al. **BMC Med 2023;21:96.** doi:10.1186/s12916-023-02824-8 (PMID 36978123) |
 
