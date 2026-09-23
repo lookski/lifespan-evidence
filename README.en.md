@@ -1,8 +1,7 @@
 # The Science of Living Longer: An Evidence Handbook
 
-> **[中文版](README.md) | English** — this file mirrors the Chinese README; every
-> number below was machine-verified against abstracts retrieved from the Europe PMC
-> API (see Reproducing this handbook).
+> **[中文版](README.md) | English** — a translation of the Chinese README. Figures were
+  verified against abstracts retrieved from the Europe PMC API.
 
 > Compiled: 2026-09-20 23:12:47 (system time at creation).
 > Search method: Europe PMC REST API (`https://www.ebi.ac.uk/europepmc/webservices/rest/search`), sorted by citations.

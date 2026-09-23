@@ -1,6 +1,6 @@
 # 延长寿命的科学证据手册
 
-> **中文 | [English](README.en.md)** — 本页与英文版内容一致, 数字同源。
+> **中文 | [English](README.en.md)** — 英文版是本页的对照翻译。
 
 > 编写时间: 2026-09-20 23:12:47 (系统时间实取)
 > 检索方式: Europe PMC REST API (`https://www.ebi.ac.uk/europepmc/webservices/rest/search`), 按被引量排序。
