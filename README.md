@@ -30,7 +30,8 @@ evidence/E*.md      逐项分析: 每证据一份, 固定 7 节模板, 数字全
 | [02-foods](topics/02-foods.md) | 该多吃的 | 蔬果/坚果/全谷/鱼/植物蛋白, 剂量反应成立 |
 | [03-avoid](topics/03-avoid.md) | 该少吃的 | 含糖饮料 1.08/份, 加工肉 1.15/份 |
 | [04-energy](topics/04-energy.md) | 热量与进食窗 | 获益来自热量本身, 限时进食无附加魔力 |
-| [05-activity](topics/05-activity.md) | 运动与久坐 | 最大单项: Q4 vs Q1 HR 0.27, 起步拿一半收益 |
+| [05-activity](topics/05-activity.md) | 运动与身体活动 | 最大单项: Q4 vs Q1 HR 0.27, 起步拿一半收益 |
+| [05b-sedentary](topics/05b-sedentary.md) | 久坐 | 独立危害 HR 1.24, 30-40 min/d 可抵消 |
 | [06-sleep](topics/06-sleep.md) | 睡眠三维度 | 规律性 ≳ 时间段 > 时长, 效应可叠加 |
 | [07-tobacco-alcohol-bmi](topics/07-tobacco-alcohol-bmi.md) | 烟酒体重 | 吸烟提前 5.5 年; 饮酒 J 型是假象; BMI 20-25 |
 | [08-social-mind](topics/08-social-mind.md) | 心理社交 | 关系强 = 生存 OR 1.50; 隔离比孤独更危险 |
@@ -38,8 +39,9 @@ evidence/E*.md      逐项分析: 每证据一份, 固定 7 节模板, 数字全
 | [10-sex](topics/10-sex.md) | 性活动 | 与"纵欲折寿"相反: 规律者风险更低 |
 | [11-frontier](topics/11-frontier.md) | 抗衰前沿 | 二甲双胍/雷帕霉素/senolytics: 均无硬终点证据 |
 | [12-frameworks](topics/12-frameworks.md) | 官方框架 | LE8/痴呆 14 因素/GBD 与本目录收敛 |
+| [13-work](topics/13-work.md) | 工作压力与长工时 | job strain 冠心病 +23%; ≥55h/周 卒中 +33% |
 
-逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (E01-E53 完整索引)。
+逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (E01-E54 完整索引)。
 
 ---
 
@@ -154,7 +156,7 @@ evidence/E*.md      逐项分析: 每证据一份, 固定 7 节模板, 数字全
 
 ---
 
-## 3. 专项补充剂盘点: 以维生素 C 为例 ("吃 VC 能延寿吗?")
+## 3. 专项补剂分析: 以维生素 C 为例 ("吃 VC 能延寿吗?")
 
 **一句话结论: 维生素 C 作为补剂不能延长寿命, 不能降低死亡率; 但水果蔬菜里的维 C 是有益饮食模式的组成部分。**
 缺维 C (坏血病风险) 该补; 不缺则补了没用。
