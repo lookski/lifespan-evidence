@@ -1,7 +1,9 @@
 # The Science of Living Longer: An Evidence Handbook
 
-> **[中文版](README.md) | English** — a translation of the Chinese README. Figures were
-  verified against abstracts retrieved from the Europe PMC API.
+> **[中文版](README.md) | English** — a translation of the Chinese README.
+> Read online: **https://lookski.github.io/lifespan-evidence/** (full-text search)
+
+![License](https://img.shields.io/badge/content-CC--BY_4.0-blue) ![Method](https://img.shields.io/badge/figures-Europe_PMC_verified-56c49b) ![Version](https://img.shields.io/badge/version-v0.1-green)
 
 > Compiled: 2026-09-20 23:12:47 (system time at creation).
 > Search method: Europe PMC REST API (`https://www.ebi.ac.uk/europepmc/webservices/rest/search`), sorted by citations.
