@@ -286,3 +286,13 @@ python lifespan-evidence/verify_abstracts.py lifespan-evidence/pmids_vc3.txt
 Files: `pmc_search.py` (search), `verify_abstracts.py` (verify), `q*.json` (search
 terms), `pmids*.txt` (verification lists), `README.md` (Chinese summary), `README.en.md`
 (this file), `topics/` (dimension briefs), `evidence/` (per-study analyses).
+
+## Cite & license
+
+- Citation: `lookski. The Science of Living Longer: An Evidence Handbook. GitHub, 2026.`
+- Content (README/topics/evidence): **CC BY 4.0** — attribution plus a link to
+  this repository when redistributing
+- Utility scripts (the search/verify/audit pipeline): MIT — reuse them to
+  verify your own topic
+- This handbook is a structured summary of published epidemiological research,
+  not medical advice; consult a doctor for personal decisions

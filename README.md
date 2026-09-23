@@ -262,4 +262,11 @@ python lifespan-evidence/verify_abstracts.py lifespan-evidence/pmids_vc2.txt
 python lifespan-evidence/verify_abstracts.py lifespan-evidence/pmids_vc3.txt
 ```
 
-文件清单: `pmc_search.py`(检索), `verify_abstracts.py`(核验), `q*.json`(检索词), `pmids*.txt`(核验清单), `README.md`(本报告)
+文件清单: `pmc_search.py`(检索), `verify_abstracts.py`(核验), `q*.json`(检索词), `pmids*.txt`(核验清单), 
+
+## 引用与许可
+
+- 引用: `lookski. 延长寿命的科学证据手册 (The Science of Living Longer: An Evidence Handbook). GitHub, 2026.`
+- 内容 (README/topics/evidence): **CC BY 4.0**, 转载请署名并附仓库链接
+- 工具脚本 (检索/核验/审计管线): MIT, 欢迎拿去核自己的题目
+- 本手册是流行病学文献的结构化总结, 不构成医疗建议; 个体决策请咨询医生`README.md`(本报告)
