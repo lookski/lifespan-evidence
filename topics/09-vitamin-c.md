@@ -1,10 +1,16 @@
 # 09 · 维生素 C 全链条 (补剂 ≠ 完整食物)
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 "血浆维 C 高 → 死亡低"的观察性关联真实存在, 但因果链三层检验全部失败:
 MR 无因果 → 口服 RCT 无效 → 重症静脉大剂量无效; 且男性大剂量补剂有肾结石风险。
 好处在食物不在药片。
+
+## TL;DR (EN)
+
+"High plasma vitamin C → lower mortality" is real observationally, but the causal chain fails at all three test layers: MR shows no causation → oral RCTs show no effect → high-dose IV in sepsis shows no effect; high-dose supplements add kidney-stone risk in men. The benefit is in foods, not pills.
 
 ## 关键数字
 

@@ -1,5 +1,7 @@
 # 延长寿命的科学证据手册
 
+> **中文 | [English](README.en.md)** — 本页与英文版内容一致, 数字同源。
+
 > 编写时间: 2026-09-20 23:12:47 (系统时间实取)
 > 检索方式: Europe PMC REST API (`https://www.ebi.ac.uk/europepmc/webservices/rest/search`), 按被引量排序。
 > 每一条关键数字均从论文摘要原文 (Europe PMC `resultType=core` 接口) 中逐条核对, 非人工记忆填写。

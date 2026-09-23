@@ -1,9 +1,15 @@
 # 04 · 热量与进食窗口
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 热量限制的获益来自热量本身 (CALERIE 实测 11.9% 限制即改善衰老标志物),
 限时进食 (8h 窗口) 不比普通节食多任何好处; "轻断食延寿"无 RCT 支持。
+
+## TL;DR (EN)
+
+The benefit comes from calories themselves (CALERIE: 11.9% restriction improved aging biomarkers); an 8-h eating window adds nothing over plain dieting; "intermittent fasting extends life" has no RCT support.
 
 ## 关键数字
 

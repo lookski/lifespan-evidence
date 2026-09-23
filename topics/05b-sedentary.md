@@ -1,10 +1,16 @@
 # 05b · 久坐
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 久坐是独立于运动的危险因素: 久坐时间最长 vs 最短组全因死亡 HR 1.24、糖尿病发病
 HR 1.91; 但每天 30-40 分钟中高强度活动几乎完全抵消这一关联——"久坐 + 不动"
 才是真风险组合。
+
+## TL;DR (EN)
+
+Sitting time is an independent risk factor: longest vs shortest, all-cause mortality HR 1.24, incident diabetes HR 1.91; but 30-40 min/day of moderate-vigorous activity nearly erases the association — "sitting + inactive" is the real risk combo.
 
 ## 关键数字
 

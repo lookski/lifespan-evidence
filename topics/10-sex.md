@@ -1,9 +1,15 @@
 # 10 · 性活动与寿命
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 "纵欲折寿"与数据方向相反: 性高潮低频组死亡风险高 ~90%, 射精频率高不增加前列腺癌
 反而略降; 频率与死亡呈 U 型 (每周 1-2 次量级最低点), 过量段回升 (疑似混杂)。
+
+## TL;DR (EN)
+
+The data run opposite to "excess shortens life": the low-orgasm group had ~90% higher mortality, higher ejaculation frequency does not raise prostate cancer risk (slightly lower); frequency and mortality are U-shaped (minimum at roughly weekly), with a suspected-confounding rise at the extreme high end.
 
 ## 关键数字
 

@@ -1,9 +1,15 @@
 # 12 · 官方框架 (LE8 / 痴呆 14 因素 / GBD)
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 官方清单与本目录逐项证据高度收敛: AHA LE8 每加 10 分全因死亡 aHR 0.79;
 Lancet 痴呆 45% 可归因于 14 项可改变因素; GBD 2021 全球 47.1% 死亡可归因于可控风险。
+
+## TL;DR (EN)
+
+Official checklists converge with this handbook: each +10 AHA Life's Essential 8 points, all-cause mortality aHR 0.79; 45% of dementia is attributable to 14 modifiable factors; 47.1% of global deaths are attributable to controllable risks (GBD 2021).
 
 ## 关键数字
 
