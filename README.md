@@ -11,6 +11,38 @@
 
 ---
 
+## 阅读路线: 三层结构
+
+本手册分三层, 按需取用:
+
+```
+README.md (本文)    总总结: 结论层 + 导航
+ topics/*.md        维度速览: 每维度一页纸, 速查表 + 可执行清单
+evidence/E*.md      逐项分析: 每证据一份, 固定 7 节模板, 数字全部机器核验
+```
+
+**维度速览入口** ([topics/](topics/)):
+
+| 页 | 维度 | 一句话 |
+|---|---|---|
+| [00-total](topics/00-total.md) | 总账 | 生活方式打包差距 8-10 年 (中国) 至 +14 年 (美国女性) |
+| [01-diet-patterns](topics/01-diet-patterns.md) | 饮食模式 | 地中海式 HR 0.69-0.72, 评分每项有增量 |
+| [02-foods](topics/02-foods.md) | 该多吃的 | 蔬果/坚果/全谷/鱼/植物蛋白, 剂量反应成立 |
+| [03-avoid](topics/03-avoid.md) | 该少吃的 | 含糖饮料 1.08/份, 加工肉 1.15/份 |
+| [04-energy](topics/04-energy.md) | 热量与进食窗 | 获益来自热量本身, 限时进食无附加魔力 |
+| [05-activity](topics/05-activity.md) | 运动与久坐 | 最大单项: Q4 vs Q1 HR 0.27, 起步拿一半收益 |
+| [06-sleep](topics/06-sleep.md) | 睡眠三维度 | 规律性 ≳ 时间段 > 时长, 效应可叠加 |
+| [07-tobacco-alcohol-bmi](topics/07-tobacco-alcohol-bmi.md) | 烟酒体重 | 吸烟提前 5.5 年; 饮酒 J 型是假象; BMI 20-25 |
+| [08-social-mind](topics/08-social-mind.md) | 心理社交 | 关系强 = 生存 OR 1.50; 隔离比孤独更危险 |
+| [09-vitamin-c](topics/09-vitamin-c.md) | 维生素 C | 好处在食物不在药片: MR/RCT/重症全阴性 |
+| [10-sex](topics/10-sex.md) | 性活动 | 与"纵欲折寿"相反: 规律者风险更低 |
+| [11-frontier](topics/11-frontier.md) | 抗衰前沿 | 二甲双胍/雷帕霉素/senolytics: 均无硬终点证据 |
+| [12-frameworks](topics/12-frameworks.md) | 官方框架 | LE8/痴呆 14 因素/GBD 与本目录收敛 |
+
+逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (E01-E53 完整索引)。
+
+---
+
 ## 0. 总纲: 健康生活方式到底能换来多少年
 
 这是整份手册最重要的一组研究——把生活方式打包计算, 直接回答"能多活几年"。

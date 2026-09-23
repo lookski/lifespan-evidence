@@ -36,6 +36,10 @@ base_tree 404 导致 422 Invalid tree info), 改为:
 修复行尾不一致: core.autocrlf=input 使 HEAD blob 为 LF, 而脚本上传的是工作区
 原始字节 (日志文件含 CRLF), 回读校验 sha_diff 假阳性. 上传前按 git 存储口径
 规范化 (text=auto: 二进制检测, 含 \0 视为二进制不处理, 否则 CRLF -> LF).
+===== [2026-09-23 11:40:12] =====
+修复 WinError 206 (文件名或扩展名太长): topics/ 13 个文件一次性 POST 时,
+单条 curl 命令行 (含 base64 body) 超 Windows 32767 字符限制. 改为: 请求体
+写临时文件 tmp_api_body.json, curl 用 --data-binary @file 读取, 不再把 body 放 argv.
 """
 
 import base64
@@ -68,10 +72,12 @@ if not token:
 
 def api(method, path, **kw):
     """用 curl 子进程调 GitHub API (python OpenSSL 被干扰, curl/schannel 稳定).
-    kw 只支持 json (请求体 dict). 返回解析后的 JSON."""
+    kw 只支持 json (请求体 dict). 请求体写临时文件用 --data-binary @file,
+    避免大 body 撑爆 Windows 命令行 (WinError 206). 返回解析后的 JSON."""
     body = kw.get("json")
+    tmp_body = None
     cmd = [
-        "curl", "-sS", "--fail-with-body", "--max-time", "60",
+        "curl", "-sS", "--fail-with-body", "--max-time", "120",
         "-X", method,
         "-H", f"Authorization: Bearer {token}",
         "-H", "Accept: application/vnd.github+json",
@@ -79,22 +85,28 @@ def api(method, path, **kw):
         "-H", "User-Agent: lifespan-evidence-sync",
     ]
     if body is not None:
+        tmp_body = LOCAL_DIR / "tmp_api_body.json"
+        tmp_body.write_text(json.dumps(body), encoding="utf-8")
         cmd += ["-H", "Content-Type: application/json",
-                "--data-binary", json.dumps(body)]
+                "--data-binary", f"@{tmp_body}"]
     cmd.append(f"{API}{path}")
     last = None
-    for attempt in range(8):
-        p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
-        if p.returncode == 0:
-            return json.loads(p.stdout)
-        last = f"curl rc={p.returncode} err={p.stderr[:200]} out={p.stdout[:200]}"
-        if p.returncode == 22:  # --fail-with-body: HTTP >= 400
-            if "rate limit" in p.stdout.lower():
-                time.sleep(60)
-                continue
-            raise RuntimeError(f"API {method} {path} HTTP错误: {p.stdout[:300]}")
-        time.sleep(2 ** attempt)
-    raise RuntimeError(f"API {method} {path} 失败: {last}")
+    try:
+        for attempt in range(8):
+            p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+            if p.returncode == 0:
+                return json.loads(p.stdout)
+            last = f"curl rc={p.returncode} err={p.stderr[:200]} out={p.stdout[:200]}"
+            if p.returncode == 22:  # --fail-with-body: HTTP >= 400
+                if "rate limit" in p.stdout.lower():
+                    time.sleep(60)
+                    continue
+                raise RuntimeError(f"API {method} {path} HTTP错误: {p.stdout[:300]}")
+            time.sleep(2 ** attempt)
+        raise RuntimeError(f"API {method} {path} 失败: {last}")
+    finally:
+        if tmp_body is not None and tmp_body.exists():
+            tmp_body.unlink()
 
 
 def git(*args):
