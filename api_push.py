@@ -40,6 +40,14 @@ base_tree 404 导致 422 Invalid tree info), 改为:
 修复 WinError 206 (文件名或扩展名太长): topics/ 13 个文件一次性 POST 时,
 单条 curl 命令行 (含 base64 body) 超 Windows 32767 字符限制. 改为: 请求体
 写临时文件 tmp_api_body.json, curl 用 --data-binary @file 读取, 不再把 body 放 argv.
+===== [2026-09-23 12:39:12] =====
+支持删除远端多余文件: Git Data API 约定 tree 条目 sha 为全零串 = 删除.
+背景: 本地删掉 tree_ev.json 后 api_push 只警告不删, entries 为空数组发
+POST /git/trees 被 GitHub 拒 (422 Invalid tree info, 空树不合法).
+第一版用全零 sha 删除, GitHub 也拒 ("tree.sha 000..0 is not a valid blob").
+最终方案: 有删除时不带 base_tree, 用"远端现存 blob + 本地新增 - 待删路径"
+全平铺重建树 (实测重建 sha 与本地 git HEAD^{tree} 完全一致).
+同时把"远端多出文件"从警告改为同步删除, added+removed 均为空则跳过.
 """
 
 import base64
@@ -150,10 +158,13 @@ def main():
     changed = [p for p in set(local) | set(remote)
                if local.get(p) != remote.get(p)]
     removed = [p for p in changed if p not in local]
-    if removed:
-        print(f"警告: 远端多出 {len(removed)} 个本地没有的文件, 本脚本不删除: {removed}")
     added = [p for p in changed if p in local]
-    print(f"需上传 {len(added)} 个文件")
+    if removed:
+        print(f"远端多出 {len(removed)} 个本地已删文件, 本次同步将一并删除: {removed}")
+    if not changed:
+        print("内容已一致, 无需同步")
+        return
+    print(f"需上传 {len(added)} 个文件, 删除 {len(removed)} 个")
 
     # 3. 逐文件 POST blobs (按 git 存储口径规范化行尾, 与 HEAD blob 一致)
     entries = []
@@ -168,11 +179,23 @@ def main():
                         "sha": blob["sha"]})
         print(f"  blob {p}")
 
-    # 4. 建树 (base=远端当前树) -> squash commit -> 更新 ref
+    # 4. 建树 -> squash commit -> 更新 ref
+    #    有删除时不能只用 base_tree+局部 entries (全零 sha 已不被接受),
+    #    改为全平铺重建: 远端现存 blob + 本地新增, 排除待删路径, 不带 base_tree
+    if removed:
+        tree_entries = [
+            {"path": p, "mode": "100644", "type": "blob", "sha": s}
+            for p, s in sorted(remote.items()) if p not in removed]
+        tree_entries += entries  # 本地上传的新 blob
+        tree = api("POST", f"/repos/{REPO}/git/trees",
+                   json={"tree": tree_entries})
+        print(f"  平铺重建树 ({len(tree_entries)} entries, 删除 {len(removed)})")
+    else:
+        tree = api("POST", f"/repos/{REPO}/git/trees",
+                   json={"base_tree": remote_tree_sha, "tree": entries})
     n = time.strftime("%Y-%m-%d %H:%M:%S")
-    msg = f"sync: {len(added)} files via api_push v2 ({n})"
-    tree = api("POST", f"/repos/{REPO}/git/trees",
-               json={"base_tree": remote_tree_sha, "tree": entries})
+    n_files = len(added) + len(removed)
+    msg = f"sync: {n_files} files via api_push v2 ({n})"
     new_commit = api("POST", f"/repos/{REPO}/git/commits", json={
         "message": msg, "tree": tree["sha"], "parents": [remote_head]})
     api("PATCH", f"/repos/{REPO}/git/refs/heads/main",
