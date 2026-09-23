@@ -1,0 +1,7 @@
+26298822 # Kivimaki Lancet 2015 long working hours CHD+stroke 603838
+22981903 # Kivimaki Lancet 2012 job strain CHD IPD meta
+28570388 # Dragano Epidemiology 2017 ERI incident CHD 90164 multicohort
+25262544 # Kivimaki Lancet Diabetes Endocrinol 2015 long hours T2D 222120
+28911189 # Alves Eur Heart J 2017 long working hours atrial fibrillation
+31927337 # Public Health 2020 job strain mortality systematic review meta
+28122650 # Madsen Psychol Med 2017 job strain clinical depression IPD

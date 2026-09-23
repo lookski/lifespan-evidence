@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "name": "job_strain_chd_ipd",
+      "q": "TITLE:\"job strain\" AND coronary heart disease AND (individual participant OR IPD OR pooled)",
+      "sort": "CITED desc",
+      "pageSize": 5
+    },
+    {
+      "name": "long_hours_stroke",
+      "q": "(long working hours OR \"long work hours\") AND stroke AND meta-analysis",
+      "sort": "CITED desc",
+      "pageSize": 5
+    },
+    {
+      "name": "long_hours_chd",
+      "q": "(long working hours OR \"long work hours\") AND coronary heart disease AND meta-analysis",
+      "sort": "CITED desc",
+      "pageSize": 5
+    },
+    {
+      "name": "job_strain_mortality",
+      "q": "\"job strain\" AND all-cause mortality AND cohort",
+      "sort": "CITED desc",
+      "pageSize": 5
+    },
+    {
+      "name": "effort_reward",
+      "q": "\"effort-reward imbalance\" AND coronary AND (meta-analysis OR cohort)",
+      "sort": "CITED desc",
+      "pageSize": 5
+    },
+    {
+      "name": "work_stress_overview",
+      "q": "(work stress OR \"psychosocial work\") AND cardiovascular AND (systematic review OR meta-analysis)",
+      "sort": "CITED desc",
+      "pageSize": 5
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "queries": [
+    {
+      "name": "kivimaki_2015_long_hours",
+      "q": "AUTH:\"Kivimaki M\" AND TITLE:\"Long working hours\" AND TITLE:\"coronary heart disease and stroke\"",
+      "sort": "P_PDATE_D desc",
+      "pageSize": 5
+    },
+    {
+      "name": "long_hours_stroke_ipd",
+      "q": "TITLE:\"long working hours\" AND TITLE:stroke",
+      "sort": "CITED desc",
+      "pageSize": 8
+    },
+    {
+      "name": "eri_chd",
+      "q": "TITLE:\"effort-reward imbalance\" AND TITLE:\"coronary\"",
+      "sort": "CITED desc",
+      "pageSize": 8
+    },
+    {
+      "name": "job_strain_mortality_titled",
+      "q": "TITLE:\"job strain\" AND (TITLE:mortality OR TITLE:\"death rate\" OR TITLE:death)",
+      "sort": "CITED desc",
+      "pageSize": 8
+    },
+    {
+      "name": "overtime_atrial",
+      "q": "TITLE:\"long working hours\" AND (TITLE:\"atrial fibrillation\" OR TITLE:diabetes)",
+      "sort": "CITED desc",
+      "pageSize": 6
+    }
+  ]
+}

@@ -17,6 +17,7 @@
 - `E47`-`E49`: 权威框架 (Life's Essential 8 / Lancet 痴呆委员会 / GBD)
 - `E50`-`E52`: 性活动 (性高潮与死亡 / 射精与前列腺癌 / NHANES U 型与心梗触发)
 - `E53`: 睡眠三维度比较 (时长 vs 规律性 vs 时间段, 含光照机制)
+- `E54`: 工作压力与长工时 (job strain/ERI/IPD-Work 联盟)
 
 ## 条目清单
 
@@ -75,6 +76,7 @@
 | E51 | 射精频率与前列腺癌 (HPFS) | 前瞻队列 | 队列 | [evidence/E51.md](E51.md) |
 | E52 | 性频率与 CVD/死亡 U 型 + 心梗触发 | NHANES + case-crossover | 队列 | [evidence/E52.md](E52.md) |
 | E53 | 睡眠时间段与死亡 (时长/规律/时间点三维比较) | 队列 + 光照测量 | 队列 | [evidence/E53.md](E53.md) |
+| E54 | 工作压力与长工时 (job strain → 冠心病/死亡/抑郁; ≥55h/周 → 卒中/房颤) | IPD 联盟 + 队列 meta | 队列 | [evidence/E54.md](E54.md) |
 
 ## 分析模板结构
 
