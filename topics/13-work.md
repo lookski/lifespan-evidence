@@ -1,10 +1,16 @@
 # 13 · 工作压力与长工时
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 高压工作确实折寿, 但量级有限: job strain 使冠心病 +23%、男性死亡 +21%、抑郁
 风险明显升高; 长工时 (≥55h/周) 使卒中 +33%、房颤 +42%; 糖尿病风险只落在
 低社会经济地位组——健康代价主要由低自主岗位承担。
+
+## TL;DR (EN)
+
+High-pressure work does cost health, in limited measure: job strain raises coronary heart disease risk +23%, male mortality +21%, and clinical depression risk clearly; long hours (≥55 h/week) raise stroke +33% and atrial fibrillation +42%; the diabetes risk lands only in low-socioeconomic-status jobs.
 
 ## 关键数字
 

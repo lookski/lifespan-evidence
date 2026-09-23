@@ -1,9 +1,15 @@
 # 08 · 心理与社交
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 社会关系强 = 生存概率高 50%; 客观隔离比主观孤独更危险; 乐观/目标感/爱好每项都是
 可测可训的心理资产 (HR 量级 0.65-0.83)。
+
+## TL;DR (EN)
+
+Strong social ties = 50% higher survival odds; objective isolation is more dangerous than subjective loneliness; optimism, purpose and hobbies are each measurable, trainable psychological assets (HR 0.65-0.83).
 
 ## 关键数字
 

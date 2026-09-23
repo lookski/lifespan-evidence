@@ -1,9 +1,15 @@
 # 01 · 饮食模式
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 不需要发明自己的食谱: 地中海式 (PREDIMED RCT 心血管事件 -30%) 与健康饮食评分
 (每项都有增量) 是证据最硬的两个"模式级"选择。
+
+## TL;DR (EN)
+
+You don't need to invent a diet: the Mediterranean pattern (PREDIMED RCT, major CV events HR 0.69-0.72) and healthy-eating scores (incremental at every point) are the two best-supported "pattern-level" choices.
 
 ## 关键数字
 

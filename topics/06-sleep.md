@@ -1,9 +1,15 @@
 # 06 · 睡眠三维度 (时长 × 规律性 × 时间段)
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 三个维度都有独立效应且可叠加: 规律性 (风险低 20%-48%) ≳ 时间段 (晚就寝 HR 1.27-1.53)
 > 时长 (短睡 RR 1.12); 互调检验显示效应不是彼此的影子。
+
+## TL;DR (EN)
+
+All three sleep dimensions have independent, stacking effects: regularity (20%-48% lower mortality) ≥ timing (late bedtime HR 1.27-1.53) > duration (short sleep RR 1.12); mutual adjustment shows neither is a shadow of the others.
 
 ## 关键数字
 

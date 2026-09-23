@@ -1,10 +1,16 @@
 # 05 · 运动与身体活动
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 延寿收益最大的单项行为: 客观测量下最高 vs 最低活动量 HR 0.27; 从"不动"到"动起来"
 (Q1→Q2) 就拿走近一半收益; 力量训练与有氧叠加 (HR 0.60) 优于任一单独。久坐另见
 [05b 页](05b-sedentary.md)。
+
+## TL;DR (EN)
+
+The single biggest behavioral lever: device-measured, highest vs lowest activity HR 0.27; moving from "inactive" to "active" (Q1 to Q2) already captures about half the benefit; resistance plus aerobic training (HR 0.60) beats either alone.
 
 ## 关键数字
 

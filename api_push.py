@@ -85,7 +85,7 @@ def api(method, path, **kw):
     body = kw.get("json")
     tmp_body = None
     cmd = [
-        "curl", "-sS", "--fail-with-body", "--max-time", "120",
+        "curl", "-sS", "--fail-with-body", "--max-time", "30", "--retry", "3", "--retry-delay", "2",
         "-X", method,
         "-H", f"Authorization: Bearer {token}",
         "-H", "Accept: application/vnd.github+json",
@@ -110,7 +110,7 @@ def api(method, path, **kw):
                     time.sleep(60)
                     continue
                 raise RuntimeError(f"API {method} {path} HTTP错误: {p.stdout[:300]}")
-            time.sleep(2 ** attempt)
+            time.sleep(min(2 ** attempt, 8))
         raise RuntimeError(f"API {method} {path} 失败: {last}")
     finally:
         if tmp_body is not None and tmp_body.exists():

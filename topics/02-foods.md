@@ -1,9 +1,15 @@
 # 02 · 单类食物 (该多吃的)
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 蔬果/坚果/全谷物/鱼/植物蛋白每加一份都有剂量反应收益; 茶与咖啡是无糖热饮的正解;
 鸡蛋不必恐惧 (适量)。
+
+## TL;DR (EN)
+
+Vegetables/fruit, nuts, whole grains, fish and plant protein each show dose-response benefits; unsweetened tea and coffee are the right hot drinks; eggs need no fear at moderate intake.
 
 ## 关键数字
 

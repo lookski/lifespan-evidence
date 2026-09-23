@@ -1,5 +1,7 @@
 # 维度速览层 (topics/)
 
+> 层级: [← 总结 README](../README.md) · 本目录 = 维度速览 (第 2 层) · 逐条分析见 [evidence/](../evidence/00-index.md)
+
 本目录是 `evidence/` 逐项分析层之上的"一页纸速览": 每个维度一个 README, 只收
 **已机器核验**的数字 (来源: 对应 evidence 条目), 并链接到条目文件。
 

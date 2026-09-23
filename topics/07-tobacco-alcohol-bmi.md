@@ -1,9 +1,15 @@
 # 07 · 烟酒与体重
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 吸烟者的心血管死亡平均提前 5.5 年到来 (任何年龄戒烟都收回收益); 饮酒的 J 型曲线是
 方法学假象; BMI 20-25 是死亡最低区, "健康肥胖"无流行病学立足点。
+
+## TL;DR (EN)
+
+Smokers' cardiovascular deaths arrive 5.5 years early (quitting at any age claws it back); the alcohol J-curve is a methodological artifact; BMI 20-25 is the mortality minimum — "healthy obesity" has no epidemiological footing.
 
 ## 关键数字
 

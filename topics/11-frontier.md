@@ -1,9 +1,15 @@
 # 11 · 抗衰前沿 (老药新用与细胞清理)
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 二甲双胍/雷帕霉素/senolytics 三条赛道机制热、人体硬终点证据缺: TAME 尚无结果,
 TRIAD 与 UNITY 都是替代终点的小样本初步试验——不要自行用药。
+
+## TL;DR (EN)
+
+The metformin / rapamycin / senolytics tracks are mechanistically hot but lack hard human endpoints: TAME has no results, TRIAD and UNITY are small surrogate-endpoint trials — do not self-medicate.
 
 ## 关键数字
 

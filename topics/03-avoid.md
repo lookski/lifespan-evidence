@@ -1,9 +1,15 @@
 # 03 · 该少吃的
 
+> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+
 ## 一句话结论
 
 含糖饮料与加工肉是"负面清单"里效应最明确的两项: 每天每多 1 份, 死亡风险 +8% / +15%;
 人工甜味饮料也不比含糖的更安全 (≥2 份/天 J 型上升)。
+
+## TL;DR (EN)
+
+Sugar-sweetened beverages and processed meat are the two clearest negatives: each extra daily serving, mortality +8% / +15%; artificially sweetened drinks are no safer (J-curve rise from 2.5 servings/day).
 
 ## 关键数字
 
