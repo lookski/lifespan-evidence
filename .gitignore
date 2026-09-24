@@ -11,3 +11,7 @@ __pycache__/
 tree_ev.json
 probe_zzz.py
 social-preview.png
+
+# local tooling (not part of the data pipeline)
+cdp.py
+github_log.txt
