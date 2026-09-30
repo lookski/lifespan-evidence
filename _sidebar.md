@@ -1,4 +1,4 @@
-- [总结 (zh/en)](README.md)
+- [Summary (en/zh)](README.md)
 - [00 · 总账: 预期寿命差有多大](topics/00-total.md)
 - [01 · 饮食模式](topics/01-diet-patterns.md)
 - [02 · 单类食物 (该多吃的)](topics/02-foods.md)
