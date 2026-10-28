@@ -18,6 +18,14 @@
 - `E50`-`E52`: 性活动 (性高潮与死亡 / 射精与前列腺癌 / NHANES U 型与心梗触发)
 - `E53`: 睡眠三维度比较 (时长 vs 规律性 vs 时间段, 含光照机制)
 - `E54`: 工作压力与长工时 (job strain/ERI/IPD-Work 联盟)
+- `E55`-`E60`: 维生素 D (观察性剂量反应 + 大型 RCT + RCT meta)
+- `E61`-`E63`: Omega-3 海洋脂肪酸 (VITAL 分支 + 两项大型 RCT meta)
+- `E64`-`E65`: 复合维生素 (PHS II / COSMOS)
+- `E66`-`E68`: 钙补剂与补剂总体 (钙心梗信号 + Iowa 队列的健康使用者偏倚)
+- `E69`-`E70`: 蛋白质来源 (植物替代动物, 两条大队列)
+- `E71`-`E72`: 桑拿/热暴露 (芬兰队列, 男女兼有)
+- `E73`-`E74`: 空气污染 PM2.5 (短期时间序列 meta + 长期队列)
+- `E75`-`E77`: 听力损失与痴呆 (队列 + meta + ACHIEVE 干预 RCT)
 
 ## 条目清单
 
@@ -77,6 +85,29 @@
 | E52 | 性频率与 CVD/死亡 U 型 + 心梗触发 | NHANES + case-crossover | 队列 | [evidence/E52.md](E52.md) |
 | E53 | 睡眠时间段与死亡 (时长/规律/时间点三维比较) | 队列 + 光照测量 | 队列 | [evidence/E53.md](E53.md) |
 | E54 | 工作压力与长工时 (job strain → 冠心病/死亡/抑郁; ≥55h/周 → 卒中/房颤) | IPD 联盟 + 队列 meta | 队列 | [evidence/E54.md](E54.md) |
+| E55 | 血清 25(OH)D 最低四分位与全因死亡 (NHANES III) | 前瞻队列 | 队列 | [evidence/E55.md](E55.md) |
+| E56 | 标准化 25(OH)D 与死亡 (欧洲 8 队列 IPD meta) | 个体数据 meta | 队列 | [evidence/E56.md](E56.md) |
+| E57 | 补充维生素 D 与死亡 (52 RCT, 75 454 人) | RCT meta | RCT meta | [evidence/E57.md](E57.md) |
+| E58 | VITAL: 2000 IU/日 维生素 D 与癌症/心血管 | RCT | RCT | [evidence/E58.md](E58.md) |
+| E59 | D-Health: 60 000 IU/月 与死亡 | RCT | RCT | [evidence/E59.md](E59.md) |
+| E60 | 维生素 D 与心血管 (21 RCT, 83 291 人) | RCT meta | RCT meta | [evidence/E60.md](E60.md) |
+| E61 | VITAL Omega-3: 1 g/日 与心血管/癌症 | RCT | RCT | [evidence/E61.md](E61.md) |
+| E62 | 海洋 omega-3 与心血管 (13 RCT, 127 477 人) | RCT meta | RCT meta | [evidence/E62.md](E62.md) |
+| E63 | Omega-3 与心血管结局 (38 RCT, 149 051 人, 含房颤/出血风险) | RCT meta | RCT meta | [evidence/E63.md](E63.md) |
+| E64 | PHS II: 复合维生素与癌症 (14 641 男, 11.2 年) | RCT | RCT | [evidence/E64.md](E64.md) |
+| E65 | COSMOS: 复合维生素与癌症/心血管 (21 442 人) | RCT | RCT | [evidence/E65.md](E65.md) |
+| E66 | 钙补剂与心肌梗死 (15 RCT) | RCT meta | RCT meta | [evidence/E66.md](E66.md) |
+| E67 | WHI 再分析: 钙±维 D 与心血管事件 | RCT 再分析 | RCT | [evidence/E67.md](E67.md) |
+| E68 | Iowa 女性队列: 补剂与死亡 (健康使用者偏倚) | 前瞻队列 | 队列 | [evidence/E68.md](E68.md) |
+| E69 | 动植物蛋白与死亡 (NHS/HPFS, 131 342 人) | 前瞻队列 | 队列 | [evidence/E69.md](E69.md) |
+| E70 | 动植物蛋白与死亡 (NIH-AARP, 416 104 人) | 前瞻队列 | 队列 | [evidence/E70.md](E70.md) |
+| E71 | 桑拿与致死性心血管/全因死亡 (KIHD, 2315 男) | 前瞻队列 | 队列 | [evidence/E71.md](E71.md) |
+| E72 | 桑拿与心血管死亡 (1688 男女, 风险预测) | 前瞻队列 | 队列 | [evidence/E72.md](E72.md) |
+| E73 | PM2.5 短期暴露与每日死亡 (110 项时间序列) | 时间序列 meta | 队列 | [evidence/E73.md](E73.md) |
+| E74 | PM2.5 长期暴露与心血管死亡 (565 477 人) | 前瞻队列 | 队列 | [evidence/E74.md](E74.md) |
+| E75 | 听力损失与痴呆 (639 人, 每 10 dB HR 1.27) | 前瞻队列 | 队列 | [evidence/E75.md](E75.md) |
+| E76 | 年龄相关听力损失与认知/痴呆 (40 项研究 meta) | 系统综述+meta | 队列 | [evidence/E76.md](E76.md) |
+| E77 | ACHIEVE: 听力干预 RCT 与认知下降 (977 人) | RCT | RCT | [evidence/E77.md](E77.md) |
 
 ## 分析模板结构
 

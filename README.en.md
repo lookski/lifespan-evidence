@@ -55,8 +55,11 @@ evidence/E*.md             Per-item analyses: one file per study, 7-section temp
 | [11-frontier](topics/11-frontier.md) | Anti-aging frontier | Metformin/rapamycin/senolytics: no hard-endpoint evidence yet |
 | [12-frameworks](topics/12-frameworks.md) | Official frameworks | LE8 / dementia commission / GBD converge on the same list |
 | [13-work](topics/13-work.md) | Work stress & long hours | Job strain: CHD +23%; ≥55 h/week: stroke +33% |
+| [14-supplements](topics/14-supplements.md) | Supplements | Vitamin D/multivitamin null; calcium MI +27%; omega-3 AF +26% |
+| [15-environment](topics/15-environment.md) | Environmental exposure | PM2.5 per +10 µg/m3: IHD mortality HR 1.16 |
+| [16-hearing](topics/16-hearing.md) | Hearing loss | Per 10 dB: dementia +27%; intervention RCT primary null |
 
-Per-study analyses: [evidence/00-index.md](evidence/00-index.md) (E01-E54).
+Per-study analyses: [evidence/00-index.md](evidence/00-index.md) (E01-E77).
 
 ---
 

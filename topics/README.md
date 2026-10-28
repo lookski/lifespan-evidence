@@ -32,6 +32,9 @@ evidence/E*.md   逐项分析 (每证据一份, 固定 7 节模板)
 | [11-frontier.md](11-frontier.md) | 抗衰前沿 | E44-E46 |
 | [12-frameworks.md](12-frameworks.md) | 官方框架 | E47-E49 |
 | [13-work.md](13-work.md) | 工作压力与长工时 | E54 |
+| [14-supplements.md](14-supplements.md) | 补剂 (维 D / Omega-3 / 复合维生素 / 钙) | E55-E70 |
+| [15-environment.md](15-environment.md) | 环境暴露 (空气污染 PM2.5) | E73-E74 |
+| [16-hearing.md](16-hearing.md) | 听力损失与认知风险 | E75-E77 |
 
 ## 规则
 

@@ -15,3 +15,9 @@ social-preview.png
 # local tooling (not part of the data pipeline)
 cdp.py
 github_log.txt
+
+# 检索/核验工作档案 (方法见 methods.md, 档案不入仓)
+q*.json
+pmids*.txt
+verify*.txt
+verify*.json

@@ -52,8 +52,11 @@ evidence/E*.md      逐项分析: 每证据一份, 固定 7 节模板, 数字全
 | [11-frontier](topics/11-frontier.md) | 抗衰前沿 | 二甲双胍/雷帕霉素/senolytics: 均无硬终点证据 |
 | [12-frameworks](topics/12-frameworks.md) | 官方框架 | LE8/痴呆 14 因素/GBD 与本目录收敛 |
 | [13-work](topics/13-work.md) | 工作压力与长工时 | job strain 冠心病 +23%; ≥55h/周 卒中 +33% |
+| [14-supplements](topics/14-supplements.md) | 补剂 | 维 D/复合维生素无效; 钙心梗 +27%; omega-3 房颤 +26% |
+| [15-environment](topics/15-environment.md) | 环境暴露 | PM2.5 每 +10 µg/m3: 心梗死亡 HR 1.16 |
+| [16-hearing](topics/16-hearing.md) | 听力损失 | 每 10 dB 痴呆 +27%; 干预 RCT 主分析阴性 |
 
-逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (E01-E54 完整索引)。
+逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (E01-E77 完整索引)。
 
 ---
 
