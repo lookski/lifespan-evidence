@@ -1,16 +1,19 @@
-# 证据条目索引 (Evidence Index)
+# 逐项证据索引 (evidence/)
 
-> 本目录是 README.md 主报告的逐项分析层。README 只保留结论, 每条证据的详细分析
-> (研究设计, 人群, 剂量反应, 机制, 局限性, 与其他证据的一致性) 放在这里, 一个条目一个文件。
-> 所有数字均从论文摘要原文机器核验 (Europe PMC `resultType=core`), 核验清单见根目录 `pmids*.txt`。
-> 未核验数字一律标注"见原文", 不手工填写。
+> 层级: [← 总结 README](../README.md) · 本目录 = 逐项分析 (第 3 层) · 维度速览见 [topics/](../topics/README.md)
+
+本目录每条证据一个文件, 固定 7 节模板, 数字全部从论文摘要机器核验。
 
 ## 编号规则
 
-- `E01`-`E03`: 总纲 (健康生活方式打包研究)
-- `E04`-`E19`: 饮食 (模式/多吃的/少吃的/热量与进食窗口)
-- `E20`-`E25`: 运动 + 睡眠
-- `E26`-`E30`: 烟酒 + BMI
+- `E01`-`E03`: 总账 (寿命差有多大)
+- `E04`-`E05`: 饮食模式
+- `E06`-`E12`: 单类食物 (该多吃的)
+- `E13`-`E15`: 该少吃的
+- `E16`-`E19`: 热量限制与进食窗口
+- `E20`-`E23`: 身体活动与久坐
+- `E24`-`E25`: 睡眠时长与规律性
+- `E26`-`E30`: 烟酒与体重
 - `E31`-`E35`: 心理与社会连接
 - `E36`-`E43`: 维生素 C 专项
 - `E44`-`E46`: 前沿干预 (TAME / 雷帕霉素 / Senolytics)
@@ -43,42 +46,42 @@
 | E10 | 植物蛋白替代动物蛋白与死亡 | 前瞻队列×2 | 队列 | [evidence/E10.md](E10.md) |
 | E11 | 咖啡与死亡 (剂量反应 meta) | 前瞻队列 meta | 队列 | [evidence/E11.md](E11.md) |
 | E12 | 茶与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E12.md](E12.md) |
-| E13 | 含糖饮料与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E13.md](E13.md) |
-| E14 | 红肉/加工肉与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E14.md](E14.md) |
-| E15 | 鸡蛋与死亡 (meta, 证据分歧) | 前瞻队列 meta | 队列 | [evidence/E15.md](E15.md) |
-| E16 | 热量限制 RCT (CALERIE 2) | RCT | RCT | [evidence/E16.md](E16.md) |
-| E17 | 热量限制灵长类实验 (恒河猴) | 动物实验 | 动物 | [evidence/E17.md](E17.md) |
-| E18 | 限时进食 RCT (8h 窗口 vs 普通节食) | RCT | RCT | [evidence/E18.md](E18.md) |
-| E19 | 8 小时进食窗口与心血管死亡 (AHA 会议摘要) | 观察性会议摘要 | 低 | [evidence/E19.md](E19.md) |
-| E20 | 总体力活动与死亡 (加速计 meta) | 前瞻队列 meta | 队列 | [evidence/E20.md](E20.md) |
-| E21 | 每天步数与死亡 (15 队列 meta) | 前瞻队列 meta | 队列 | [evidence/E21.md](E21.md) |
-| E22 | 力量训练与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E22.md](E22.md) |
-| E23 | 久坐与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E23.md](E23.md) |
-| E24 | 睡眠时长与死亡 (J/U 型, meta) | 前瞻队列 meta | 队列 | [evidence/E24.md](E24.md) |
+| E13 | 含糖饮料与死亡 | 前瞻队列 | 队列 | [evidence/E13.md](E13.md) |
+| E14 | 加工肉与死亡 | 前瞻队列 meta | 队列 | [evidence/E14.md](E14.md) |
+| E15 | 鸡蛋摄入与心血管 | 前瞻队列 meta | 队列 | [evidence/E15.md](E15.md) |
+| E16 | 热量限制与死亡 (CALERIE) | RCT | RCT | [evidence/E16.md](E16.md) |
+| E17 | 热量限制与寿命 (恒河猴) | 动物 | 动物 | [evidence/E17.md](E17.md) |
+| E18 | 限时进食与体重 (TRE RCT) | RCT | RCT | [evidence/E18.md](E18.md) |
+| E19 | 进食窗口与死亡 (AHA 会议摘要) | 会议摘要 | 低 | [evidence/E19.md](E19.md) |
+| E20 | 身体活动量与死亡 | 前瞻队列 meta | 队列 | [evidence/E20.md](E20.md) |
+| E21 | 步数与死亡 | 前瞻队列 meta | 队列 | [evidence/E21.md](E21.md) |
+| E22 | 力量训练与死亡 | 前瞻队列 | 队列 | [evidence/E22.md](E22.md) |
+| E23 | 久坐时间与死亡 | 前瞻队列 meta | 队列 | [evidence/E23.md](E23.md) |
+| E24 | 睡眠时长与死亡 (J 型) | 前瞻队列 meta | 队列 | [evidence/E24.md](E24.md) |
 | E25 | 睡眠规律性与死亡 (UK Biobank) | 前瞻队列 | 队列 | [evidence/E25.md](E25.md) |
-| E26 | 吸烟与心血管死亡 (CHANCES 个体数据 meta) | 前瞻队列 meta | 队列 | [evidence/E26.md](E26.md) |
-| E27 | 戒烟的寿命获益 (CHANCES) | 前瞻队列 meta | 队列 | [evidence/E27.md](E27.md) |
-| E28 | 肥胖+吸烟对美国预期寿命的联合预测 | 建模研究 | 建模 | [evidence/E28.md](E28.md) |
-| E29 | 饮酒与全因死亡 (J 型曲线的再分析) | 队列 meta+meta 回归 | 队列 | [evidence/E29.md](E29.md) |
-| E30 | BMI 与全因死亡 (GBMI 个体数据 meta) | 个体数据 meta | 队列 | [evidence/E30.md](E30.md) |
-| E31 | 社会关系与死亡 (经典 meta) | 前瞻队列 meta | 队列 | [evidence/E31.md](E31.md) |
-| E32 | 社会隔离/孤独与死亡 (90 队列 meta) | 前瞻队列 meta | 队列 | [evidence/E32.md](E32.md) |
-| E33 | 乐观与心血管事件/死亡 (meta + NHS 队列) | meta + 队列 | 队列 | [evidence/E33.md](E33.md) |
-| E34 | 人生目标感与死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E34.md](E34.md) |
-| E35 | 爱好与目标感 (ikigai) 与老年死亡 | 前瞻队列 | 队列 | [evidence/E35.md](E35.md) |
-| E36 | 膳食/血浆维 C 与心血管死亡 (meta) | 前瞻队列 meta | 队列 | [evidence/E36.md](E36.md) |
-| E37 | 血浆维 C 与全因死亡 (中国 16 年队列) | 前瞻队列 | 队列 | [evidence/E37.md](E37.md) |
-| E38 | 基因高维 C 与死亡 (孟德尔随机化) | 孟德尔随机化 | MR | [evidence/E38.md](E38.md) |
-| E39 | 抗氧化补剂与死亡 (Bjelakovic JAMA + Cochrane) | RCT meta | RCT meta | [evidence/E39.md](E39.md) |
-| E40 | 维 C 直接 RCT (PHS II, 心血管 + 癌症) | RCT | RCT | [evidence/E40.md](E40.md) |
-| E41 | 大剂量静脉维 C 与脓毒症 (CITRIS-ALI + VICTAS) | RCT×2 | RCT | [evidence/E41.md](E41.md) |
-| E42 | 大剂量维 C 补剂与肾结石 | 前瞻队列 + meta | 队列 | [evidence/E42.md](E42.md) |
-| E43 | 维 C 与感冒 (Cochrane) | RCT meta | RCT meta | [evidence/E43.md](E43.md) |
-| E44 | 二甲双胍抗衰 (TAME 试验框架) | 试验设计综述 | 前瞻 | [evidence/E44.md](E44.md) |
-| E45 | 雷帕霉素与衰老 (犬 TRIAD + 人体探索) | 进行中试验 | 动物/早期 | [evidence/E45.md](E45.md) |
-| E46 | Senolytics 人体初步试验 | 早期 RCT/试点 | 早期 | [evidence/E46.md](E46.md) |
-| E47 | AHA Life's Essential 8 框架本身 | 学会声明 | 指南 | [evidence/E47.md](E47.md) |
-| E48 | Lancet 痴呆预防委员会 2024 | 委员会报告 | 指南 | [evidence/E48.md](E48.md) |
+| E26 | 吸烟与死亡 | 个体数据 meta | 队列 | [evidence/E26.md](E26.md) |
+| E27 | 戒烟与死亡 | 前瞻队列 | 队列 | [evidence/E27.md](E27.md) |
+| E28 | 生活方式因素联合预测 | 前瞻队列 | 队列 | [evidence/E28.md](E28.md) |
+| E29 | 饮酒与心血管 (J 型再分析) | 孟德尔随机化 | MR | [evidence/E29.md](E29.md) |
+| E30 | BMI 与死亡 (GBMI) | 个体数据 meta | 队列 | [evidence/E30.md](E30.md) |
+| E31 | 社会关系与死亡 | 前瞻队列 meta | 队列 | [evidence/E31.md](E31.md) |
+| E32 | 社会隔离与孤独 | 前瞻队列 meta | 队列 | [evidence/E32.md](E32.md) |
+| E33 | 乐观与死亡 | 前瞻队列 | 队列 | [evidence/E33.md](E33.md) |
+| E34 | 目标感与死亡 | 前瞻队列 | 队列 | [evidence/E34.md](E34.md) |
+| E35 | 爱好与死亡 (ikigai) | 前瞻队列 | 队列 | [evidence/E35.md](E35.md) |
+| E36 | 维生素 C 观察性 meta | 前瞻队列 meta | 队列 | [evidence/E36.md](E36.md) |
+| E37 | 维生素 C 中国队列 | 前瞻队列 | 队列 | [evidence/E37.md](E37.md) |
+| E38 | 维生素 C 孟德尔随机化 | 孟德尔随机化 | MR | [evidence/E38.md](E38.md) |
+| E39 | 抗氧化补剂 RCT meta | RCT meta | RCT meta | [evidence/E39.md](E39.md) |
+| E40 | PHS II 维生素 C | RCT | RCT | [evidence/E40.md](E40.md) |
+| E41 | 重症静脉维生素 C RCT | RCT meta | RCT meta | [evidence/E41.md](E41.md) |
+| E42 | 维生素 C 与肾结石 | 前瞻队列 | 队列 | [evidence/E42.md](E42.md) |
+| E43 | 维生素 C 与感冒 (Cochrane) | RCT meta | RCT meta | [evidence/E43.md](E43.md) |
+| E44 | TAME 二甲双胍试验 | 在建 RCT | RCT | [evidence/E44.md](E44.md) |
+| E45 | TRIAD 雷帕霉素试验 | 在建 RCT | RCT | [evidence/E45.md](E45.md) |
+| E46 | Senolytics 衰老细胞清除 | 早期人体试验 | 低 | [evidence/E46.md](E46.md) |
+| E47 | AHA Life's Essential 8 | 官方框架 | 队列 | [evidence/E47.md](E47.md) |
+| E48 | Lancet 痴呆 14 因素 | 官方框架 | 队列 | [evidence/E48.md](E48.md) |
 | E49 | GBD 2021 危险因素归因 | 系统分析 | 负担估计 | [evidence/E49.md](E49.md) |
 | E50 | 性高潮频率与死亡 (Caerphilly) | 前瞻队列 | 队列 | [evidence/E50.md](E50.md) |
 | E51 | 射精频率与前列腺癌 (HPFS) | 前瞻队列 | 队列 | [evidence/E51.md](E51.md) |
